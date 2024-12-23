@@ -1,0 +1,211 @@
+/* Mobile start */
+
+@media screen and (max-width: 425px) {
+    * {
+        font-size: 16px;
+    }
+    .header,
+    .main,
+    .foot {
+        width: 420px;
+    }
+    .header {
+        padding-top: 0;
+    }
+    .head_bg_img {
+        width: 400px;
+    }
+    .container {
+        width: 95%;
+    }
+    .mobil_nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 20px 0 0 20px;
+        z-index: 9;
+    }
+    .mobil_nav .nav_open {
+        border: none;
+    }
+    .mobil_nav .nav_open i {
+        font-size: 33px;
+    }
+    .mobil_nav,
+    .nav_btn {
+        display: block;
+    }
+    nav {
+        max-width: 100%;
+        height: 100vh;
+        padding: 15px 30px;
+        flex-direction: column;
+        gap: 30px;
+        align-items: start;
+        justify-content: start;
+        left: 0;
+        margin: 0;
+        transition: .3s;
+    }
+    .nav_actve {
+        transform: translateX(-100%);
+    }
+    .nav_btn {
+        border: none;
+        margin-left: 90%;
+    }
+    .nav_btn i {
+        font-size: 24px;
+    }
+    nav menu {
+        margin: 0;
+        flex-direction: column;
+    }
+    .center {
+        flex-direction: column-reverse;
+    }
+    .center .left {
+        width: 400px;
+    }
+    .center .left h2 {
+        font-size: 30px;
+    }
+    .center .left p {
+        font-size: 25px;
+    }
+    .center .right {
+        width: 100%;
+    }
+    .center .right img {
+        width: 100%;
+    }
+    .center .left .link {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        z-index: 6;
+        position: relative;
+    }
+    .top {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .bottom {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .clinic {
+        overflow: hidden;
+        padding-top: 50px;
+        height: 1180px;
+    }
+    .clinic_circle_box .sel {
+        display: block;
+    }
+    .sel p {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .clinic_circle_box .circle_img {
+        width: 350px;
+    }
+    .clinic_slider {
+        top: 810px;
+        left: 0;
+    }
+    .speciality {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .speciality .right img {
+        max-width: 400px;
+    }
+    .speciality .left h2 {
+        font-size: 40px;
+        margin: 20px 0 40px;
+    }
+    .speciality .left p {
+        max-width: 400px;
+        text-align: center;
+    }
+    .left_flex {
+        max-width: 400px;
+    }
+    .left_flex .flex_box {
+        gap: 10px;
+    }
+    .left_flex .flex_box button {
+        width: 100%;
+    }
+    .ask_doctors {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .ask_doctors .left h2 {
+        width: auto;
+    }
+    .ask_doctors .left menu {
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .left menu li span {
+        width: 175px;
+        font-size: 20px;
+    }
+    .ask_doctors .right {
+        width: 100%;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+    .user_card {
+        max-width: 350px;
+    }
+    .fixed_chat {
+        left: 20px;
+    }
+    .testimonials {
+        overflow: hidden;
+    }
+    .testimonials .left .logo+.color_black {
+        max-width: 400px;
+    }
+    .slider {
+        margin-top: 300px;
+    }
+    .ready {
+        flex-direction: column;
+        padding: 35px 45px;
+        gap: 30px;
+    }
+    .clinics_cards .clinic_card {
+        max-width: 400px;
+    }
+    .clinic_card .right_content {
+        gap: 10px;
+    }
+    .right_content .content_contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .right_content .content_btn {
+        max-width: 200px;
+    }
+    .foot_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .foot_content .foot_center {
+        gap: 5px;
+    }
+    .foot_content .right {
+        align-items: center;
+    }
+    .foot .back_img:nth-child(1) {
+        display: none;
+    }
+}
